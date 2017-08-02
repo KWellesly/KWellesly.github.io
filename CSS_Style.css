@@ -1,0 +1,149 @@
+.all_content {
+    width: 100%;
+    height: 100%;
+    min-width: 800px;
+    position:relative;
+    display: inline-block;
+}
+
+.header-cont {
+    width:100%;
+    position:fixed;
+    top:0px;
+    z-index: 1;
+}
+.header {
+    height:75px;
+    background-color: #f2f2f2;
+    border: 1px solid transparent;
+    margin:0px auto;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.name_content {
+	margin-left: 30px;
+	color: #004080;
+	font-size: 45px;
+}
+
+.wrapperA {
+    margin-top: 20px;
+}
+a {
+	color:#b3ccff;
+	font-size: 20px;
+
+}
+
+
+.about_me {
+    width:100%;
+    background: #ffe6f0;
+    border: 1px solid #CCC;
+    height: 600px;
+    margin-top: 75px;
+    margin-right: 75px;
+}
+
+
+.coursework {
+    width:100%;
+    background: #d9d9d9;
+    border: 1px solid #CCC;
+    height: 1000px;
+    margin-right: 75px;
+
+}
+
+.tech_languages {
+	height: auto;
+	margin-top: 50px;
+    margin-left: 25%;
+    margin-right:25%;
+
+}
+
+.education {
+	height: auto;
+	margin-top: 50px;
+    margin-left: 25%;
+    margin-right:25%;
+
+}
+
+.relevant_coursework {
+	height: auto;
+	margin-top: 75px;
+    margin-left: 25%;
+    margin-right:25%;
+
+}
+
+/* IMG of me */
+.personal_img {
+	margin-left: 100px;
+	margin-top: 100px;
+
+}
+
+/* Text block for "about me" */
+.description_tag {
+	font-family: Comic Sans MS;
+	margin-top: 175px;
+	margin-right: 25px;
+}
+
+/*Text block for description of experiences */
+.experience_tag {
+	font-family: Georgia, serif;
+	font-style: normal;
+}
+
+li {
+	font-size: 20px;
+}
+ul.circle {
+    list-style-type: circle;
+}
+
+/*Horizontal line */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.right-align {
+	text-align: right;
+    display: inline;
+}
+
+.left-align {
+	text-align: left;
+    display: inline;
+}
+
+.experience {
+	width:100%;
+    background: #ffffff;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    height: 850px;
+    
+}
+
+p {
+	font-size: 20px;
+}
+
+.projects {
+	width:100%;
+    background: #ffe0b3;
+    border-bottom: 1px solid #CCC;
+    height: 850px;
+}
